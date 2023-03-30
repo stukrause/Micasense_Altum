@@ -6,7 +6,7 @@ This script performs radiometric calibration on Micasense Altum images and outpu
 
 The script aligns the images, calculates the reflectance of a reference panel, and applies the radiometric calibration to the images in the input directory. The output is saved in the specified output directory.
 
-The script requires a Micasense environment and the following libraries: micasense, mapboxgl, exiftool, and cv2.
+The script requires a Micasense environment and the following libraries: micasense, mapboxgl, exiftool, and cv2. Script may need updates depending on changes in newer versions of https://github.com/micasense/imageprocessing.
 
 This is a command line command to run the script under Windows. \tif is originals \cal is calibration panel image \tif_ex is where to export.
 
